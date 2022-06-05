@@ -22,7 +22,7 @@ response = requests.get(url, headers=HEADERS)
     f.write(response.text)"""
 
 # we now reading our html file and printing the first 500 characters
-with open("bestseller.html","r") as f:
+with open("amazon.html","r") as f:
     html_content = f.read()
 # html_content[0:500]
 
