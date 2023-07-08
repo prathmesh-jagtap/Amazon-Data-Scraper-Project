@@ -3,7 +3,8 @@ import bs4
 from bs4 import BeautifulSoup as bs
 import requests
 import pandas as pd
-from . import parse, get_info
+from data_scrape import get_info
+from page_scraper import parse
 
 # Main amazon url for scraping
 url ="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers"
